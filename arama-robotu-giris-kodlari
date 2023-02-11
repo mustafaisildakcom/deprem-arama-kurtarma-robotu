@@ -1,3 +1,5 @@
+# Arama robotu yazılımının giriş kodları, robotun sensörlerinden verileri okuyup, hareketlerini kontrol etmesini sağlayacak temel işlevleri içermelidir.
+
 # Gerekli kütüphaneleri yükleme
 import time
 import random
@@ -39,3 +41,5 @@ while True:
 
     # Belirli bir aralıkta bekleme
     time.sleep(0.5)
+    
+    # Bu kod örneği, robotun sensörlerinden veri okumasını, engelleri algılama ve hareketi kontrol etmesini, insanları tespit etmesini ve konumunu güncellemesini sağlar. Tabii ki, bu sadece bir örnek ve her robot için farklı kodlar gerekebilir.
