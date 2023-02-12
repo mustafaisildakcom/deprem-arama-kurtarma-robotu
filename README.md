@@ -81,3 +81,8 @@ Hareket kontrolü: Robotun doğru bir şekilde hareket etmesi, engelleri aşmas�
 Yapay zeka: Bazı kurtarma robotları, yapay zeka algoritmaları kullanarak, verileri analiz ederek ve insan davranışlarını öğrenerek daha iyi kurtarma performansı gösterebilir. Yapay zeka algoritmaları, robotun öğrenmesini ve karar vermesini sağlayabilir.
 
 Bu faktörler, kurtarma robotu algoritmalarının tasarımında önemlidir. Bunların doğru bir şekilde analiz edilmesi ve uygun algoritmaların kullanılması, robotun kurtarma görevlerinde daha başarılı olmasını sağlar.
+
+HAREKET ALGILAMA MODULÜ
+Hareket algılama modülünü eklemek için OpenCV kütüphanesini kullanabiliriz. Bu modül, görüntü işleme ve bilgisayarlı görü teknolojilerinde yaygın olarak kullanılan bir kütüphanedir. Bir video akışından hareket algılama gerçekleştirmek için basit bir Python kod örneği yazılmıştır. Bu kod, bir video akışından görüntü yakalar ve fark alma algoritması ile ardışık kareler arasındaki farkı hesaplar. Ardından, belirli bir eşik değeri kullanarak bu farkın büyüklüğünü ölçer ve bu eşik değerinin üzerinde olan herhangi bir farkı tespit eder. Son olarak, tespit edilen her bir hareket için bir dikdörtgen çizilir ve sonuç olarak bir video akışı oluşturulur.
+
+Bu kod, hareket algılama için sadece basit bir örnek sağlar ve daha gelişmiş özellikler ve algoritmalar da kullanılabilir. Ayrıca, bu kodu farklı senaryolar için özelleştirmek mümkündür.
